@@ -1,0 +1,242 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.navigation
+{
+	max-width: 1140px;
+	margin: 0 auto;
+	float:right;
+	margin-right: 60px;
+
+}
+
+.navigation .main-nav
+{
+	list-style:none;
+	float: right;
+	width: 100%;
+
+}
+
+body
+{
+	font-family:tahoma;
+}
+.button{
+	background-color: #6c757d;
+	text-align: center;
+	font-size: 40px;
+}
+p
+{
+	margin top: 30px;
+	margin-bottom: 45px;
+}
+.btn {
+  background-color: orange;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 30px
+}
+.hero
+{
+	position: absolute;
+	width: 100%;
+	top: 30%;
+
+
+}
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/pubg1.jpeg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+h2
+{
+	font-family: serif;
+	color: brown;
+	font-size: 80px;
+	width: 100%;
+}
+h1
+{
+	color: white;
+	font-size: 50px;
+	width: 100%;
+}
+
+.main-nav li
+{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+
+}
+.main-nav li a:hover
+{
+	color:#e67e22;
+	border-bottom:2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding:15px 0;
+}
+
+.toggle
+{
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 26px;
+	background: #f00;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 30px;
+}
+@media (max-width: 992px)
+{
+
+.toggle
+{
+	display: block;
+}
+header
+{
+	padding: 0 0;
+
+}
+header nav {
+	display:none;
+
+}
+.navigation
+{
+	width: 100%;
+	margin-top: 50px;
+	margin-right: 0px;
+
+
+}
+header nav.active{
+	display: block;
+}
+
+.main-nav li{
+	margin: 0;
+	display: block;
+	text-align: center;
+	color: #ffff;
+	background: rgba(0,0,0,.5);
+
+}
+
+
+}
+h3:after
+{
+	width:100px;
+	height:2px;
+	background-color: #e67e22;
+	display:block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.features h3
+{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.privacy
+{
+	width:70%;
+	margin-left:15%;
+}
+
+.row
+{
+	margin-top: 60px;
+
+}
+.rules1 div
+{
+	border: 1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	width:50px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+
+}
+.rules div
+{
+	border: 1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	width:50px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.about-us
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/aboutpubg.jpg);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+	margin-top: 60px;
+
+
+}
+.about-us p
+{
+	color: white;
+	line-height: 25px;
+	text-align: absolute
+	margin-top: 60px;
+
+}
+.footer
+{
+	background-attachment: fixed;
+	margin-top: -60px;
+	background-color: black;
+}
+.copywright p
+{
+	margin-top: 0px;
+	text-align: left;
+	color: grey;
+}
+.contact
+{
+	text-align: right;
+}
+.contact h4
+{
+	color: white;
+
+}
+.contact p
+{
+	color: orange;
+}
